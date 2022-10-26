@@ -12,4 +12,4 @@ var screen = document.getElementById("screen");
   function myFunc(){
     alert("Hello world");
   }
-</script
+</script>
