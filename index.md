@@ -9,9 +9,8 @@ title: Home
 <script>
 var screen = document.querySelector("#screen");
 screen.innerHTML = 0;
-function myFunc(){
-  alert("Hello world");
-}
 var run = document.querySelector("#RUN");
-run.addEventListener('click', myFunc);
+run.addEventListener('click', function(){
+  alert("Hello world");
+});
 </script>
