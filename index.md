@@ -7,11 +7,11 @@ title: Home
 <button id="RUN">RUN</button>
 <button>reset</button>
 <script>
-var screen = document.getElementById("screen");
+var screen = document.querySelector("#screen");
 screen.innerHTML = 0;
 function myFunc(){
   alert("Hello world");
 }
-var run = document.getElementById("RUN");
+var run = document.querySelector("#RUN");
 run.addEventListener('click', myFunc);
 </script>
