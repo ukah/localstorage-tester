@@ -8,8 +8,8 @@ title: Home
 <button>reset</button>
 <script>
 var screen = document.getElementById("screen");
-  screen.innerHTML(0);
-  function myFunc(){
-    alert("Hello world");
-  }
+screen.innerHTML = 0;
+function myFunc(){
+  alert("Hello world");
+}
 </script>
