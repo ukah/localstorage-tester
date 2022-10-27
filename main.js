@@ -1,5 +1,5 @@
 var run = document.querySelector("#RUN");
-run.addEventListener('click', function(){
+/*run.addEventListener('click', function(){
 	var str2Bytes = "a";
 	var hugeStr = "", preHugeStr = "";
 	var quotaExceed = false;
@@ -23,7 +23,7 @@ run.addEventListener('click', function(){
 	var screen = document.querySelector("#screen");
 	screen.innerHTML = size + " byte<br>" + (size/1024) + " KB<br>" + (size/1024/1024) + " MB" ;
 	localStorage.clear();
-});
+});*/
 
 var runTest = document.querySelector("#runTest");
 runTest.addEventListener('click', function(){
