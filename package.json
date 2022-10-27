@@ -2,24 +2,23 @@
   "name": "localstorage-tester",
   "version": "1.0.0",
   "description": "- [javascript - Chome Extension - QuotaExceededError localStorage - コードログ](https://stackoverflow.com/questions/43142660/chome-extension-quotaexceedederror-localstorage) - [IE, Edgeにはドメイン全体でもLocalStorageの容量制限がある - Qiita](https://qiita.com/non_cal/items/b8a3779f93a252f0f796) [Setup | Jekyll • Simple, blog-aware, static sites](https://jekyllrb.com/docs/step-by-step/01-setup/)",
-  "main": "main.js",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^3.2.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-//    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
-    "build": "npx tailwindcss -i ./src/input.css -o ./output.css --watch"
+	"build": "npx tailwindcss -i ./src/input.css -o output.css --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://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@github.com/ukah/localstorage-tester.git"
+    "url": "git+https://github.com/ukah/localstorage-tester.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ukah/localstorage-tester/issues"
   },
-  "homepage": "https://github.com/ukah/localstorage-tester#readme",
-  "devDependencies": {
-    "tailwindcss": "^3.2.1"
-  }
+  "homepage": "https://github.com/ukah/localstorage-tester#readme"
 }
