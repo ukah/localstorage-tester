@@ -1,4 +1,6 @@
-##############jekyll#################
+cards.json
+
+#　#############jekyll#################
 
 _site/
 .sass-cache/
@@ -8,7 +10,7 @@ _site/
 .bundle/
 vendor/
 
-###########nodejs##############
+#　##########nodejs##############
 
 # Logs
 logs
