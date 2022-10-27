@@ -2,9 +2,32 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
+	<link href="/dist/output.css" rel="stylesheet">
     <title>{{ page.title }}</title>
   </head>
   <body>
-    {{ content }}
+	  <header class="bg-green-400 p-4">
+	  <nav class="flex justify-between mx-auto container">
+		<div>
+			{{ page.title}}
+		  </div>
+		  <div>
+			  <a href="">HOME</a>
+			  <a href="">ABOUT</a>
+			  <a href="">BLOG</a>
+		  </div>
+	  </nav>
+	  </header>
+	  <div class="container mx-auto">
+{{ content }}
+	  </div>
+	<script src="main.js"></script>
+	<!-- load React -->
+	<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+	<!--バベルをロード-->
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	<!--カスタムスクリプトはこちら-->
+	<script type="text/babel" src="test.jsx"></script>
   </body>
 </html>

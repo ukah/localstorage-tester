@@ -24,6 +24,7 @@ run.addEventListener('click', function(){
 	screen.innerHTML = size + " byte<br>" + (size/1024) + " KB<br>" + (size/1024/1024) + " MB" ;
 	localStorage.clear();
 });
+
 var runTest = document.querySelector("#runTest");
 runTest.addEventListener('click', function(){
 	let singleArray = ["0123456","012"];
@@ -39,10 +40,23 @@ runTest.addEventListener('click', function(){
 	// localStorage.clear();
 	
 });
+
 var getArray = document.querySelector("#getArray");
 getArray.addEventListener('click', function(){
 	let json = localStorage.getItem('array');
 	let array = JSON.parse(json);
 	var screen = document.querySelector("#screen");
 	screen.innerHTML = array.length;
+});
+
+var getJSON = document.querySelector("#getJSON");
+getJSON.addEventListener('click', function(){
+
+	fetch('./cards.json')
+    .then(result => result.json())
+    .then((output) => {
+        console.log('Output: ', output.length);
+        
+	}).catch(err => console.error(err));
+	// console.log(jsonData.length);
 });

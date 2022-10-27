@@ -1,17 +1,9 @@
 ---
 layout: default
-title: Home
+title: localStorage-test
+
 ---
 
 
-# {{ "Hello World!" | downcase }}
-
-<div id="screen"></div>
-
-<button id="RUN">RUN</button><br>
-
-<button id="runTest">TEST</button>
-
-<button id="getArray">getArray</button>
-
-<script src="main.js"></script>
+<!--# {{ "Hello World!" | downcase }}-->
+{% include firstcontent.html %}

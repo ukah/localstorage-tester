@@ -30,3 +30,5 @@ title: Home
 ```
 
 を入れればおｋ
+
+- [JavaScript で URL から JSON を取得する | Delft スタック](https://www.delftstack.com/ja/howto/javascript/get-json-from-url-in-javascript/#jquery-%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%97%E3%81%A6-url-%E3%81%8B%E3%82%89-json-%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B)
